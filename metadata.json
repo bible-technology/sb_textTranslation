@@ -1,31 +1,45 @@
 ﻿{
   "meta": {
-    "version": "0.2.0",
+    "version": "0.2.0-beta",
     "variant": "source",
     "generator": {
       "softwareName": "Paratext",
       "softwareVersion": "9.1.0.0",
       "userName": "Tim Steenwyk"
     },
+    "uploader": {
+      "softwareName": "Paratext",
+      "softwareVersion": "9.1.0.0",
+      "userName": "Tim Steenwyk"
+    },
     "defaultLanguage": "en",
-    "dateCreated": "2020-06-12T16:39:36.0158153-04:00",
+    "dateCreated": "2020-06-16T17:08:45.9137709-04:00",
     "normalization": "NFC"
+  },
+  "idServers": {
+    "ptx": {
+      "id": "http://www.paratext.org",
+      "name": "Paratext application"
+    }
   },
   "identification": {
     "systemId": {
       "ptx": {
         "id": "b01d38db1c30059b892c8cbbc65b70271743d32d",
-        "revision": "1"
+        "revision": "c772aae2277babbe71dce9e3e061656b6909f5e2"
       }
     },
     "idServer": "ptx",
     "name": {
       "en": "World English Bible (American Edition)"
     },
-    "description": {},
     "abbreviation": {
       "en": "engWEB14"
     }
+  },
+  "confidentiality": {
+    "metadata": "unrestricted",
+    "ingredients": "unrestricted"
   },
   "languages": [
     {
@@ -35,811 +49,1072 @@
       }
     }
   ],
+  "type": {
+    "flavorType": {
+      "canonType": [
+        "ot",
+        "nt",
+        "dc"
+      ],
+      "canonSpec": {
+        "ot": {
+          "name": "western"
+        },
+        "nt": {
+          "name": "western"
+        },
+        "dc": {
+          "name": "western"
+        }
+      },
+      "bookScope": {
+        "GEN": [],
+        "EXO": [],
+        "LEV": [],
+        "NUM": [],
+        "DEU": [],
+        "JOS": [],
+        "JDG": [],
+        "RUT": [],
+        "1SA": [],
+        "2SA": [],
+        "1KI": [],
+        "2KI": [],
+        "1CH": [],
+        "2CH": [],
+        "EZR": [],
+        "NEH": [],
+        "EST": [],
+        "JOB": [],
+        "PSA": [],
+        "PRO": [],
+        "ECC": [],
+        "SNG": [],
+        "ISA": [],
+        "JER": [],
+        "LAM": [],
+        "EZK": [],
+        "DAN": [],
+        "HOS": [],
+        "JOL": [],
+        "AMO": [],
+        "OBA": [],
+        "JON": [],
+        "MIC": [],
+        "NAM": [],
+        "HAB": [],
+        "ZEP": [],
+        "HAG": [],
+        "ZEC": [],
+        "MAL": [],
+        "MAT": [],
+        "MRK": [],
+        "LUK": [],
+        "JHN": [],
+        "ACT": [],
+        "ROM": [],
+        "1CO": [],
+        "2CO": [],
+        "GAL": [],
+        "EPH": [],
+        "PHP": [],
+        "COL": [],
+        "1TH": [],
+        "2TH": [],
+        "1TI": [],
+        "2TI": [],
+        "TIT": [],
+        "PHM": [],
+        "HEB": [],
+        "JAS": [],
+        "1PE": [],
+        "2PE": [],
+        "1JN": [],
+        "2JN": [],
+        "3JN": [],
+        "JUD": [],
+        "REV": [],
+        "TOB": [],
+        "JDT": [],
+        "ESG": [],
+        "WIS": [],
+        "SIR": [],
+        "BAR": [],
+        "1MA": [],
+        "2MA": [],
+        "3MA": [],
+        "4MA": [],
+        "1ES": [],
+        "2ES": [],
+        "MAN": [],
+        "PS2": [],
+        "FRT": [],
+        "GLO": [],
+        "DAG": []
+      },
+      "name": "scripture",
+      "flavor": {
+        "name": "textTranslation",
+        "projectType": "standard",
+        "translationType": "firstTranslation",
+        "audience": "common",
+        "usfmVersion": "2.6"
+      }
+    }
+  },
   "names": {
-    "gen": {
+    "GEN": {
+      "short": {
+        "en": "Genesis"
+      },
       "abbr": {
         "en": "Genesis"
       },
-      "short": {},
       "long": {
         "en": "The First Book of Moses, Commonly Called Genesis"
       }
     },
-    "exo": {
+    "EXO": {
+      "short": {
+        "en": "Exodus"
+      },
       "abbr": {
         "en": "Exodus"
       },
-      "short": {},
       "long": {
         "en": "The Second Book of Mosis, Commonly Called Exodus"
       }
     },
-    "lev": {
+    "LEV": {
+      "short": {
+        "en": "Leviticus"
+      },
       "abbr": {
         "en": "Leviticus"
       },
-      "short": {},
       "long": {
         "en": "The Third Book of Mosis, Commonly Called Leviticus"
       }
     },
-    "num": {
+    "NUM": {
+      "short": {
+        "en": "Numbers"
+      },
       "abbr": {
         "en": "Numbers"
       },
-      "short": {},
       "long": {
         "en": "The Fourth Book of Moses, Commonly Called Numbers"
       }
     },
-    "deu": {
+    "DEU": {
+      "short": {
+        "en": "Deuteronomy"
+      },
       "abbr": {
         "en": "Deuteronomy"
       },
-      "short": {},
       "long": {
         "en": "The Fifth Book of Moses, Commonly Called Deuteronomy"
       }
     },
-    "jos": {
+    "JOS": {
+      "short": {
+        "en": "Joshua"
+      },
       "abbr": {
         "en": "Joshua"
       },
-      "short": {},
       "long": {
         "en": "The Book of Joshua"
       }
     },
-    "jdg": {
+    "JDG": {
+      "short": {
+        "en": "Judges"
+      },
       "abbr": {
         "en": "Judges"
       },
-      "short": {},
       "long": {
         "en": "The Book of Judges"
       }
     },
-    "rut": {
+    "RUT": {
+      "short": {
+        "en": "Ruth"
+      },
       "abbr": {
         "en": "Ruth"
       },
-      "short": {},
       "long": {
         "en": "The Book of Ruth"
       }
     },
-    "1sa": {
+    "1SA": {
+      "short": {
+        "en": "1 Samuel"
+      },
       "abbr": {
         "en": "1 Samuel"
       },
-      "short": {},
       "long": {
         "en": "The First Book of Samuel"
       }
     },
-    "2sa": {
+    "2SA": {
+      "short": {
+        "en": "2 Samuel"
+      },
       "abbr": {
         "en": "2 Samuel"
       },
-      "short": {},
       "long": {
         "en": "The Second Book of Samuel"
       }
     },
-    "1ki": {
+    "1KI": {
+      "short": {
+        "en": "1 Kings"
+      },
       "abbr": {
         "en": "1 Kings"
       },
-      "short": {},
       "long": {
         "en": "The First Book of Kings"
       }
     },
-    "2ki": {
+    "2KI": {
+      "short": {
+        "en": "2 Kings"
+      },
       "abbr": {
         "en": "2 Kings"
       },
-      "short": {},
       "long": {
         "en": "The Second Book of Kings"
       }
     },
-    "1ch": {
+    "1CH": {
+      "short": {
+        "en": "1 Chronicles"
+      },
       "abbr": {
         "en": "1 Chronicles"
       },
-      "short": {},
       "long": {
         "en": "The First Book of Chronicles"
       }
     },
-    "2ch": {
+    "2CH": {
+      "short": {
+        "en": "2 Chronicles"
+      },
       "abbr": {
         "en": "2 Chronicles"
       },
-      "short": {},
       "long": {
         "en": "The Second Book of Chronicles"
       }
     },
-    "ezr": {
+    "EZR": {
+      "short": {
+        "en": "Ezra"
+      },
       "abbr": {
         "en": "Ezra"
       },
-      "short": {},
       "long": {
         "en": "The Book of Ezra"
       }
     },
-    "neh": {
+    "NEH": {
+      "short": {
+        "en": "Nehemiah"
+      },
       "abbr": {
         "en": "Nehemiah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Nehemiah"
       }
     },
-    "est": {
-      "abbr": {
+    "EST": {
+      "short": {
         "en": "Esther"
       },
-      "short": {
+      "abbr": {
         "en": "Esther"
       },
       "long": {
         "en": "The Book of Esther"
       }
     },
-    "job": {
+    "JOB": {
+      "short": {
+        "en": "Job"
+      },
       "abbr": {
         "en": "Job"
       },
-      "short": {},
       "long": {
         "en": "The Book of Job"
       }
     },
-    "psa": {
+    "PSA": {
+      "short": {
+        "en": "Psalms"
+      },
       "abbr": {
         "en": "Psalm"
       },
-      "short": {},
       "long": {
         "en": "The Psalms"
       }
     },
-    "pro": {
+    "PRO": {
+      "short": {
+        "en": "Proverbs"
+      },
       "abbr": {
         "en": "Proverbs"
       },
-      "short": {},
       "long": {
         "en": "The Proverbs"
       }
     },
-    "ecc": {
+    "ECC": {
+      "short": {
+        "en": "Ecclesiastes"
+      },
       "abbr": {
         "en": "Ecclesiastes"
       },
-      "short": {},
       "long": {
         "en": "Ecclesiates or, The Preacher"
       }
     },
-    "sng": {
-      "abbr": {
+    "SNG": {
+      "short": {
         "en": "Song of Solomon"
       },
-      "short": {
+      "abbr": {
         "en": "Song of Solomon"
       },
       "long": {
         "en": "The Song of Solomon"
       }
     },
-    "isa": {
+    "ISA": {
+      "short": {
+        "en": "Isaiah"
+      },
       "abbr": {
         "en": "Isaiah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Isaiah"
       }
     },
-    "jer": {
+    "JER": {
+      "short": {
+        "en": "Jeremiah"
+      },
       "abbr": {
         "en": "Jeremiah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Jeremiah"
       }
     },
-    "lam": {
+    "LAM": {
+      "short": {
+        "en": "Lamentations"
+      },
       "abbr": {
         "en": "Lamentations"
       },
-      "short": {},
       "long": {
         "en": "The Lamentations of Jeremiah"
       }
     },
-    "ezk": {
+    "EZK": {
+      "short": {
+        "en": "Ezekiel"
+      },
       "abbr": {
         "en": "Ezekiel"
       },
-      "short": {},
       "long": {
         "en": "The Book of Ezekiel"
       }
     },
-    "dan": {
-      "abbr": {
+    "DAN": {
+      "short": {
         "en": "Daniel"
       },
-      "short": {
+      "abbr": {
         "en": "Daniel"
       },
       "long": {
         "en": "The Book of Daniel"
       }
     },
-    "hos": {
+    "HOS": {
+      "short": {
+        "en": "Hosea"
+      },
       "abbr": {
         "en": "Hosea"
       },
-      "short": {},
       "long": {
         "en": "The Book of Hosea"
       }
     },
-    "jol": {
+    "JOL": {
+      "short": {
+        "en": "Joel"
+      },
       "abbr": {
         "en": "Joel"
       },
-      "short": {},
       "long": {
         "en": "The Book of Joel"
       }
     },
-    "amo": {
+    "AMO": {
+      "short": {
+        "en": "Amos"
+      },
       "abbr": {
         "en": "Amos"
       },
-      "short": {},
       "long": {
         "en": "The Book of Amos"
       }
     },
-    "oba": {
+    "OBA": {
+      "short": {
+        "en": "Obadiah"
+      },
       "abbr": {
         "en": "Obadiah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Obadiah"
       }
     },
-    "jon": {
+    "JON": {
+      "short": {
+        "en": "Jonah"
+      },
       "abbr": {
         "en": "Jonah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Jonah"
       }
     },
-    "mic": {
+    "MIC": {
+      "short": {
+        "en": "Micah"
+      },
       "abbr": {
         "en": "Micah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Micah"
       }
     },
-    "nam": {
+    "NAM": {
+      "short": {
+        "en": "Nahum"
+      },
       "abbr": {
         "en": "Nahum"
       },
-      "short": {},
       "long": {
         "en": "The Book of Nahum"
       }
     },
-    "hab": {
+    "HAB": {
+      "short": {
+        "en": "Habakkuk"
+      },
       "abbr": {
         "en": "Habakkuk"
       },
-      "short": {},
       "long": {
         "en": "The Book of Habakkuk"
       }
     },
-    "zep": {
+    "ZEP": {
+      "short": {
+        "en": "Zephaniah"
+      },
       "abbr": {
         "en": "Zephaniah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Zephaniah"
       }
     },
-    "hag": {
+    "HAG": {
+      "short": {
+        "en": "Haggai"
+      },
       "abbr": {
         "en": "Haggai"
       },
-      "short": {},
       "long": {
         "en": "The Book of Haggai"
       }
     },
-    "zec": {
+    "ZEC": {
+      "short": {
+        "en": "Zechariah"
+      },
       "abbr": {
         "en": "Zechariah"
       },
-      "short": {},
       "long": {
         "en": "The Book of Zechariah"
       }
     },
-    "mal": {
+    "MAL": {
+      "short": {
+        "en": "Malachi"
+      },
       "abbr": {
         "en": "Malachi"
       },
-      "short": {},
       "long": {
         "en": "The Book of Malachi"
       }
     },
-    "mat": {
+    "MAT": {
+      "short": {
+        "en": "Matthew"
+      },
       "abbr": {
         "en": "Matthew"
       },
-      "short": {},
       "long": {
         "en": "The Good News According to Matthew"
       }
     },
-    "mrk": {
+    "MRK": {
+      "short": {
+        "en": "Mark"
+      },
       "abbr": {
         "en": "Mark"
       },
-      "short": {},
       "long": {
         "en": "The Good News According to Mark"
       }
     },
-    "luk": {
+    "LUK": {
+      "short": {
+        "en": "Luke"
+      },
       "abbr": {
         "en": "Luke"
       },
-      "short": {},
       "long": {
         "en": "The Good News According to Luke"
       }
     },
-    "jhn": {
+    "JHN": {
+      "short": {
+        "en": "John"
+      },
       "abbr": {
         "en": "John"
       },
-      "short": {},
       "long": {
         "en": "The Good News According to John"
       }
     },
-    "act": {
+    "ACT": {
+      "short": {
+        "en": "Acts"
+      },
       "abbr": {
         "en": "Acts"
       },
-      "short": {},
       "long": {
         "en": "The Acts of the Apostles"
       }
     },
-    "rom": {
+    "ROM": {
+      "short": {
+        "en": "Romans"
+      },
       "abbr": {
         "en": "Romans"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Letter to the Romans"
       }
     },
-    "1co": {
+    "1CO": {
+      "short": {
+        "en": "1 Corinthians"
+      },
       "abbr": {
         "en": "1 Corinthians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s First Letter to the Corinthians"
       }
     },
-    "2co": {
+    "2CO": {
+      "short": {
+        "en": "2 Corinthians"
+      },
       "abbr": {
         "en": "2 Corinthians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Second Letter to the Corinthians"
       }
     },
-    "gal": {
+    "GAL": {
+      "short": {
+        "en": "Galatians"
+      },
       "abbr": {
         "en": "Galatians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Letter to the Galatians"
       }
     },
-    "eph": {
+    "EPH": {
+      "short": {
+        "en": "Ephesians"
+      },
       "abbr": {
         "en": "Ephesians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Letter to the Ephesians"
       }
     },
-    "php": {
+    "PHP": {
+      "short": {
+        "en": "Philippians"
+      },
       "abbr": {
         "en": "Philippians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Letter to the Philippians"
       }
     },
-    "col": {
+    "COL": {
+      "short": {
+        "en": "Colossians"
+      },
       "abbr": {
         "en": "Colossians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Letter to the Colossians"
       }
     },
-    "1th": {
+    "1TH": {
+      "short": {
+        "en": "1 Thessalonians"
+      },
       "abbr": {
         "en": "1 Thessalonians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s First Letter to the Thessalonians"
       }
     },
-    "2th": {
+    "2TH": {
+      "short": {
+        "en": "2 Thessalonians"
+      },
       "abbr": {
         "en": "2 Thessalonians"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Second Letter to the Thessalonians"
       }
     },
-    "1ti": {
+    "1TI": {
+      "short": {
+        "en": "1 Timothy"
+      },
       "abbr": {
         "en": "1 Timothy"
       },
-      "short": {},
       "long": {
         "en": "Paul’s First Letter to Timothy"
       }
     },
-    "2ti": {
+    "2TI": {
+      "short": {
+        "en": "2 Timothy"
+      },
       "abbr": {
         "en": "2 Timothy"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Second Letter to Timothy"
       }
     },
-    "tit": {
+    "TIT": {
+      "short": {
+        "en": "Titus"
+      },
       "abbr": {
         "en": "Titus"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Letter to Titus"
       }
     },
-    "phm": {
+    "PHM": {
+      "short": {
+        "en": "Philemon"
+      },
       "abbr": {
         "en": "Philemon"
       },
-      "short": {},
       "long": {
         "en": "Paul’s Letter to Philemon"
       }
     },
-    "heb": {
+    "HEB": {
+      "short": {
+        "en": "Hebrews"
+      },
       "abbr": {
         "en": "Hebrews"
       },
-      "short": {},
       "long": {
         "en": "The Letter to the Hebrews"
       }
     },
-    "jas": {
+    "JAS": {
+      "short": {
+        "en": "James"
+      },
       "abbr": {
         "en": "James"
       },
-      "short": {},
       "long": {
         "en": "The Letter from James"
       }
     },
-    "1pe": {
+    "1PE": {
+      "short": {
+        "en": "1 Peter"
+      },
       "abbr": {
         "en": "1 Peter"
       },
-      "short": {},
       "long": {
         "en": "Peter’s First Letter"
       }
     },
-    "2pe": {
+    "2PE": {
+      "short": {
+        "en": "2 Peter"
+      },
       "abbr": {
         "en": "2 Peter"
       },
-      "short": {},
       "long": {
         "en": "Peter’s Second Letter"
       }
     },
-    "1jn": {
+    "1JN": {
+      "short": {
+        "en": "1 John"
+      },
       "abbr": {
         "en": "1 John"
       },
-      "short": {},
       "long": {
         "en": "John’s First Letter"
       }
     },
-    "2jn": {
+    "2JN": {
+      "short": {
+        "en": "2 John"
+      },
       "abbr": {
         "en": "2 John"
       },
-      "short": {},
       "long": {
         "en": "John’s Second Letter"
       }
     },
-    "3jn": {
+    "3JN": {
+      "short": {
+        "en": "3 John"
+      },
       "abbr": {
         "en": "3 John"
       },
-      "short": {},
       "long": {
         "en": "John’s Third Letter"
       }
     },
-    "jud": {
+    "JUD": {
+      "short": {
+        "en": "Jude"
+      },
       "abbr": {
         "en": "Jude"
       },
-      "short": {},
       "long": {
         "en": "The Letter from Jude"
       }
     },
-    "rev": {
+    "REV": {
+      "short": {
+        "en": "Revelation"
+      },
       "abbr": {
         "en": "Revelation"
       },
-      "short": {},
       "long": {
         "en": "The Revelation to John"
       }
     },
-    "tob": {
+    "TOB": {
+      "short": {
+        "en": "Tobit"
+      },
       "abbr": {
         "en": "Tobit"
       },
-      "short": {},
       "long": {
         "en": "Tobit"
       }
     },
-    "jdt": {
+    "JDT": {
+      "short": {
+        "en": "Judith"
+      },
       "abbr": {
         "en": "Judith"
       },
-      "short": {},
       "long": {
         "en": "Judith"
       }
     },
-    "esg": {
-      "abbr": {
-        "en": "ESG"
-      },
+    "ESG": {
       "short": {
         "en": "Esther (Greek)"
       },
+      "abbr": {
+        "en": "ESG"
+      },
       "long": {
         "en": "Esther (Greek)"
       }
     },
-    "wis": {
+    "WIS": {
+      "short": {
+        "en": "Wisdom of Solomon"
+      },
       "abbr": {
         "en": "Wisdom"
       },
-      "short": {},
       "long": {
         "en": "The Wisdom of Solomon"
       }
     },
-    "sir": {
-      "abbr": {
+    "SIR": {
+      "short": {
         "en": "Sirach"
       },
-      "short": {
+      "abbr": {
         "en": "Sirach"
       },
       "long": {
         "en": "The Wisdom of Jesus the Son of Sirach, or Ecclesiasticus"
       }
     },
-    "bar": {
+    "BAR": {
+      "short": {
+        "en": "Baruch"
+      },
       "abbr": {
         "en": "Baruch"
       },
-      "short": {},
       "long": {
         "en": "Baruch"
       }
     },
-    "lje": {
+    "LJE": {
+      "short": {
+        "en": "Jeremy's Letter"
+      },
       "abbr": {
         "en": "LJe"
       },
-      "short": {
-        "en": "Jeremy's Letter"
-      },
       "long": {
         "en": "Jeremy's Letter"
       }
     },
-    "s3y": {
-      "abbr": {
-        "en": "S3Y"
-      },
+    "S3Y": {
       "short": {
         "en": "3 Holy Children's Song"
+      },
+      "abbr": {
+        "en": "S3Y"
       },
       "long": {
         "en": "The Song of the Three Holy Children"
       }
     },
-    "sus": {
+    "SUS": {
+      "short": {
+        "en": "Susanna"
+      },
       "abbr": {
         "en": "Susanna"
       },
-      "short": {},
       "long": {
         "en": "The History of Susanna"
       }
     },
-    "bel": {
+    "BEL": {
+      "short": {
+        "en": "Bel and the Dragon"
+      },
       "abbr": {
         "en": "Bel"
       },
-      "short": {},
       "long": {
         "en": "Bel and the Dragon"
       }
     },
-    "1ma": {
+    "1MA": {
+      "short": {
+        "en": "1 Maccabees"
+      },
       "abbr": {
         "en": "1Ma"
       },
-      "short": {},
       "long": {
         "en": "The First Book of the Maccabees"
       }
     },
-    "2ma": {
+    "2MA": {
+      "short": {
+        "en": "2 Maccabees"
+      },
       "abbr": {
         "en": "2Ma"
       },
-      "short": {},
       "long": {
         "en": "The Second Book of the Maccabees"
       }
     },
-    "3ma": {
+    "3MA": {
+      "short": {
+        "en": "3 Maccabees"
+      },
       "abbr": {
         "en": "3Ma"
       },
-      "short": {},
       "long": {
         "en": "The Third Book of the Maccabees"
       }
     },
-    "4ma": {
+    "4MA": {
+      "short": {
+        "en": "4 Maccabees"
+      },
       "abbr": {
         "en": "4Ma"
       },
-      "short": {},
       "long": {
         "en": "The Fourth Book of the Maccabees"
       }
     },
-    "1es": {
+    "1ES": {
+      "short": {
+        "en": "1 Esdras"
+      },
       "abbr": {
         "en": "1Es"
       },
-      "short": {
-        "en": "1 Esdras"
-      },
       "long": {
         "en": "1 Esdras"
       }
     },
-    "2es": {
+    "2ES": {
+      "short": {
+        "en": "2 Esdras"
+      },
       "abbr": {
         "en": "2Es"
       },
-      "short": {
-        "en": "2 Esdras"
-      },
       "long": {
         "en": "2 Esdras"
       }
     },
-    "man": {
-      "abbr": {
-        "en": "Man"
-      },
+    "MAN": {
       "short": {
         "en": "Prayer of Manasses"
+      },
+      "abbr": {
+        "en": "Man"
       },
       "long": {
         "en": "The Prayer of Manasses King of Judah when He was Held Captive in Babylon"
       }
     },
-    "ps2": {
+    "PS2": {
+      "short": {
+        "en": "Psalm 151"
+      },
       "abbr": {
         "en": "Ps151"
       },
-      "short": {},
       "long": {
         "en": "Psalm 151"
       }
     },
-    "frt": {
-      "abbr": {
-        "en": "Pre"
-      },
+    "FRT": {
       "short": {
         "en": "Preface"
+      },
+      "abbr": {
+        "en": "Pre"
       },
       "long": {
         "en": "Preface"
       }
     },
-    "glo": {
-      "abbr": {
-        "en": "Glo"
-      },
+    "GLO": {
       "short": {
         "en": "Glossary"
+      },
+      "abbr": {
+        "en": "Glo"
       },
       "long": {
         "en": "World English Bible Glossary"
       }
     },
-    "dag": {
-      "abbr": {
-        "en": "DAG"
-      },
+    "DAG": {
       "short": {
         "en": "Daniel (Greek)"
+      },
+      "abbr": {
+        "en": "DAG"
       },
       "long": {
         "en": "The Book of Daniel with Greek Portions"
@@ -853,7 +1128,7 @@
       },
       "size": 209065,
       "scope": {
-        "gen": []
+        "GEN": []
       }
     },
     "ingredients/02EXOengWEB14.SFM": {
@@ -862,7 +1137,7 @@
       },
       "size": 178497,
       "scope": {
-        "exo": []
+        "EXO": []
       }
     },
     "ingredients/03LEVengWEB14.SFM": {
@@ -871,7 +1146,7 @@
       },
       "size": 132378,
       "scope": {
-        "lev": []
+        "LEV": []
       }
     },
     "ingredients/04NUMengWEB14.SFM": {
@@ -880,7 +1155,7 @@
       },
       "size": 183773,
       "scope": {
-        "num": []
+        "NUM": []
       }
     },
     "ingredients/05DEUengWEB14.SFM": {
@@ -889,7 +1164,7 @@
       },
       "size": 152110,
       "scope": {
-        "deu": []
+        "DEU": []
       }
     },
     "ingredients/06JOSengWEB14.SFM": {
@@ -898,7 +1173,7 @@
       },
       "size": 102813,
       "scope": {
-        "jos": []
+        "JOS": []
       }
     },
     "ingredients/07JDGengWEB14.SFM": {
@@ -907,7 +1182,7 @@
       },
       "size": 103344,
       "scope": {
-        "jdg": []
+        "JDG": []
       }
     },
     "ingredients/08RUTengWEB14.SFM": {
@@ -916,7 +1191,7 @@
       },
       "size": 14361,
       "scope": {
-        "rut": []
+        "RUT": []
       }
     },
     "ingredients/091SAengWEB14.SFM": {
@@ -979,7 +1254,7 @@
       },
       "size": 43333,
       "scope": {
-        "ezr": []
+        "EZR": []
       }
     },
     "ingredients/16NEHengWEB14.SFM": {
@@ -988,7 +1263,7 @@
       },
       "size": 60691,
       "scope": {
-        "neh": []
+        "NEH": []
       }
     },
     "ingredients/17ESTengWEB14.SFM": {
@@ -997,7 +1272,7 @@
       },
       "size": 31885,
       "scope": {
-        "est": []
+        "EST": []
       }
     },
     "ingredients/18JOBengWEB14.SFM": {
@@ -1006,7 +1281,7 @@
       },
       "size": 114095,
       "scope": {
-        "job": []
+        "JOB": []
       }
     },
     "ingredients/19PSAengWEB14.SFM": {
@@ -1015,7 +1290,7 @@
       },
       "size": 277458,
       "scope": {
-        "psa": []
+        "PSA": []
       }
     },
     "ingredients/20PROengWEB14.SFM": {
@@ -1024,7 +1299,7 @@
       },
       "size": 96304,
       "scope": {
-        "pro": []
+        "PRO": []
       }
     },
     "ingredients/21ECCengWEB14.SFM": {
@@ -1033,7 +1308,7 @@
       },
       "size": 30827,
       "scope": {
-        "ecc": []
+        "ECC": []
       }
     },
     "ingredients/22SNGengWEB14.SFM": {
@@ -1042,7 +1317,7 @@
       },
       "size": 17073,
       "scope": {
-        "sng": []
+        "SNG": []
       }
     },
     "ingredients/23ISAengWEB14.SFM": {
@@ -1051,7 +1326,7 @@
       },
       "size": 216586,
       "scope": {
-        "isa": []
+        "ISA": []
       }
     },
     "ingredients/24JERengWEB14.SFM": {
@@ -1060,7 +1335,7 @@
       },
       "size": 242317,
       "scope": {
-        "jer": []
+        "JER": []
       }
     },
     "ingredients/25LAMengWEB14.SFM": {
@@ -1069,7 +1344,7 @@
       },
       "size": 22182,
       "scope": {
-        "lam": []
+        "LAM": []
       }
     },
     "ingredients/26EZKengWEB14.SFM": {
@@ -1078,7 +1353,7 @@
       },
       "size": 217458,
       "scope": {
-        "ezk": []
+        "EZK": []
       }
     },
     "ingredients/27DANengWEB14.SFM": {
@@ -1087,7 +1362,7 @@
       },
       "size": 65192,
       "scope": {
-        "dan": []
+        "DAN": []
       }
     },
     "ingredients/28HOSengWEB14.SFM": {
@@ -1096,7 +1371,7 @@
       },
       "size": 32765,
       "scope": {
-        "hos": []
+        "HOS": []
       }
     },
     "ingredients/29JOLengWEB14.SFM": {
@@ -1105,7 +1380,7 @@
       },
       "size": 12654,
       "scope": {
-        "jol": []
+        "JOL": []
       }
     },
     "ingredients/30AMOengWEB14.SFM": {
@@ -1114,7 +1389,7 @@
       },
       "size": 25197,
       "scope": {
-        "amo": []
+        "AMO": []
       }
     },
     "ingredients/31OBAengWEB14.SFM": {
@@ -1123,7 +1398,7 @@
       },
       "size": 3980,
       "scope": {
-        "oba": []
+        "OBA": []
       }
     },
     "ingredients/32JONengWEB14.SFM": {
@@ -1132,7 +1407,7 @@
       },
       "size": 7515,
       "scope": {
-        "jon": []
+        "JON": []
       }
     },
     "ingredients/33MICengWEB14.SFM": {
@@ -1141,7 +1416,7 @@
       },
       "size": 19343,
       "scope": {
-        "mic": []
+        "MIC": []
       }
     },
     "ingredients/34NAMengWEB14.SFM": {
@@ -1150,7 +1425,7 @@
       },
       "size": 7487,
       "scope": {
-        "nam": []
+        "NAM": []
       }
     },
     "ingredients/35HABengWEB14.SFM": {
@@ -1159,7 +1434,7 @@
       },
       "size": 8921,
       "scope": {
-        "hab": []
+        "HAB": []
       }
     },
     "ingredients/36ZEPengWEB14.SFM": {
@@ -1168,7 +1443,7 @@
       },
       "size": 9326,
       "scope": {
-        "zep": []
+        "ZEP": []
       }
     },
     "ingredients/37HAGengWEB14.SFM": {
@@ -1177,7 +1452,7 @@
       },
       "size": 6470,
       "scope": {
-        "hag": []
+        "HAG": []
       }
     },
     "ingredients/38ZECengWEB14.SFM": {
@@ -1186,7 +1461,7 @@
       },
       "size": 35834,
       "scope": {
-        "zec": []
+        "ZEC": []
       }
     },
     "ingredients/39MALengWEB14.SFM": {
@@ -1195,7 +1470,7 @@
       },
       "size": 10246,
       "scope": {
-        "mal": []
+        "MAL": []
       }
     },
     "ingredients/41MATengWEB14.SFM": {
@@ -1204,7 +1479,7 @@
       },
       "size": 151070,
       "scope": {
-        "mat": []
+        "MAT": []
       }
     },
     "ingredients/42MRKengWEB14.SFM": {
@@ -1213,7 +1488,7 @@
       },
       "size": 91347,
       "scope": {
-        "mrk": []
+        "MRK": []
       }
     },
     "ingredients/43LUKengWEB14.SFM": {
@@ -1222,7 +1497,7 @@
       },
       "size": 153306,
       "scope": {
-        "luk": []
+        "LUK": []
       }
     },
     "ingredients/44JHNengWEB14.SFM": {
@@ -1231,7 +1506,7 @@
       },
       "size": 117288,
       "scope": {
-        "jhn": []
+        "JHN": []
       }
     },
     "ingredients/45ACTengWEB14.SFM": {
@@ -1240,7 +1515,7 @@
       },
       "size": 142274,
       "scope": {
-        "act": []
+        "ACT": []
       }
     },
     "ingredients/46ROMengWEB14.SFM": {
@@ -1249,7 +1524,7 @@
       },
       "size": 59241,
       "scope": {
-        "rom": []
+        "ROM": []
       }
     },
     "ingredients/471COengWEB14.SFM": {
@@ -1276,7 +1551,7 @@
       },
       "size": 19022,
       "scope": {
-        "gal": []
+        "GAL": []
       }
     },
     "ingredients/50EPHengWEB14.SFM": {
@@ -1285,7 +1560,7 @@
       },
       "size": 18459,
       "scope": {
-        "eph": []
+        "EPH": []
       }
     },
     "ingredients/51PHPengWEB14.SFM": {
@@ -1294,7 +1569,7 @@
       },
       "size": 13223,
       "scope": {
-        "php": []
+        "PHP": []
       }
     },
     "ingredients/52COLengWEB14.SFM": {
@@ -1303,7 +1578,7 @@
       },
       "size": 12133,
       "scope": {
-        "col": []
+        "COL": []
       }
     },
     "ingredients/531THengWEB14.SFM": {
@@ -1348,7 +1623,7 @@
       },
       "size": 5799,
       "scope": {
-        "tit": []
+        "TIT": []
       }
     },
     "ingredients/58PHMengWEB14.SFM": {
@@ -1357,7 +1632,7 @@
       },
       "size": 2786,
       "scope": {
-        "phm": []
+        "PHM": []
       }
     },
     "ingredients/59HEBengWEB14.SFM": {
@@ -1366,7 +1641,7 @@
       },
       "size": 43781,
       "scope": {
-        "heb": []
+        "HEB": []
       }
     },
     "ingredients/60JASengWEB14.SFM": {
@@ -1375,7 +1650,7 @@
       },
       "size": 13931,
       "scope": {
-        "jas": []
+        "JAS": []
       }
     },
     "ingredients/611PEengWEB14.SFM": {
@@ -1429,7 +1704,7 @@
       },
       "size": 4140,
       "scope": {
-        "jud": []
+        "JUD": []
       }
     },
     "ingredients/67REVengWEB14.SFM": {
@@ -1438,7 +1713,7 @@
       },
       "size": 68541,
       "scope": {
-        "rev": []
+        "REV": []
       }
     },
     "ingredients/68TOBengWEB14.SFM": {
@@ -1447,7 +1722,7 @@
       },
       "size": 39051,
       "scope": {
-        "tob": []
+        "TOB": []
       }
     },
     "ingredients/69JDTengWEB14.SFM": {
@@ -1456,7 +1731,7 @@
       },
       "size": 62610,
       "scope": {
-        "jdt": []
+        "JDT": []
       }
     },
     "ingredients/70ESGengWEB14.SFM": {
@@ -1465,7 +1740,7 @@
       },
       "size": 44195,
       "scope": {
-        "esg": []
+        "ESG": []
       }
     },
     "ingredients/71WISengWEB14.SFM": {
@@ -1474,7 +1749,7 @@
       },
       "size": 69807,
       "scope": {
-        "wis": []
+        "WIS": []
       }
     },
     "ingredients/72SIRengWEB14.SFM": {
@@ -1483,7 +1758,7 @@
       },
       "size": 177244,
       "scope": {
-        "sir": []
+        "SIR": []
       }
     },
     "ingredients/73BARengWEB14.SFM": {
@@ -1492,7 +1767,7 @@
       },
       "size": 28611,
       "scope": {
-        "bar": []
+        "BAR": []
       }
     },
     "ingredients/781MAengWEB14.SFM": {
@@ -1555,7 +1830,7 @@
       },
       "size": 3125,
       "scope": {
-        "man": []
+        "MAN": []
       }
     },
     "ingredients/85PS2engWEB14.SFM": {
@@ -1564,7 +1839,7 @@
       },
       "size": 1082,
       "scope": {
-        "pS2": []
+        "PS2": []
       }
     },
     "ingredients/A0FRTengWEB14.SFM": {
@@ -1573,7 +1848,7 @@
       },
       "size": 9322,
       "scope": {
-        "frt": []
+        "FRT": []
       }
     },
     "ingredients/A9GLOengWEB14.SFM": {
@@ -1582,7 +1857,7 @@
       },
       "size": 19990,
       "scope": {
-        "glo": []
+        "GLO": []
       }
     },
     "ingredients/B2DAGengWEB14.SFM": {
@@ -1591,7 +1866,7 @@
       },
       "size": 88166,
       "scope": {
-        "dag": []
+        "DAG": []
       }
     }
   }
