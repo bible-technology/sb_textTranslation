@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.2.0-beta",
+    "version": "0.2.0",
     "variant": "source",
     "generator": {
       "softwareName": "Paratext",
@@ -13,13 +13,15 @@
       "userName": "Tim Steenwyk"
     },
     "defaultLanguage": "en",
-    "dateCreated": "2020-06-22T11:51:57.0554465-04:00",
+    "dateCreated": "2020-06-22T16:03:26.9224027-04:00",
     "normalization": "NFC"
   },
   "idServers": {
     "ptx": {
       "id": "http://www.paratext.org",
-      "name": "Paratext application"
+      "name": {
+        "en": "Paratext application"
+      }
     }
   },
   "identification": {
@@ -72,10 +74,10 @@
           "name": "western"
         },
         "dc": {
-          "name": "western"
+          "name": "westernInterconfessional"
         }
       },
-      "bookScope": {
+      "currentScope": {
         "GEN": [],
         "EXO": [],
         "LEV": [],
@@ -156,8 +158,6 @@
         "2ES": [],
         "MAN": [],
         "PS2": [],
-        "FRT": [],
-        "GLO": [],
         "DAG": []
       }
     }
@@ -1124,7 +1124,7 @@
   "ingredients": {
     "ingredients/01GENengWEB14.SFM": {
       "checksum": {
-        "md5": "141EF7A8BF0B813D91689B6F542A14B0"
+        "md5": "141ef7a8bf0b813d91689b6f542a14b0"
       },
       "mimeType": "text/x-usfm",
       "size": 209065,
@@ -1134,7 +1134,7 @@
     },
     "ingredients/02EXOengWEB14.SFM": {
       "checksum": {
-        "md5": "694E0DC3ED0DBE196F193718327F66BA"
+        "md5": "694e0dc3ed0dbe196f193718327f66ba"
       },
       "mimeType": "text/x-usfm",
       "size": 178497,
@@ -1144,7 +1144,7 @@
     },
     "ingredients/03LEVengWEB14.SFM": {
       "checksum": {
-        "md5": "FB6E127D57386C70A12B4AF29843863B"
+        "md5": "fb6e127d57386c70a12b4af29843863b"
       },
       "mimeType": "text/x-usfm",
       "size": 132378,
@@ -1154,7 +1154,7 @@
     },
     "ingredients/04NUMengWEB14.SFM": {
       "checksum": {
-        "md5": "B8F8BF2425C99AF73B481CC0FBAC086D"
+        "md5": "b8f8bf2425c99af73b481cc0fbac086d"
       },
       "mimeType": "text/x-usfm",
       "size": 183773,
@@ -1164,7 +1164,7 @@
     },
     "ingredients/05DEUengWEB14.SFM": {
       "checksum": {
-        "md5": "BA29713D4D30A9D02F4FFFABCCE69190"
+        "md5": "ba29713d4d30a9d02f4fffabcce69190"
       },
       "mimeType": "text/x-usfm",
       "size": 152110,
@@ -1174,7 +1174,7 @@
     },
     "ingredients/06JOSengWEB14.SFM": {
       "checksum": {
-        "md5": "8C969CB53D8C1611513B95F29A0E2655"
+        "md5": "8c969cb53d8c1611513b95f29a0e2655"
       },
       "mimeType": "text/x-usfm",
       "size": 102813,
@@ -1184,7 +1184,7 @@
     },
     "ingredients/07JDGengWEB14.SFM": {
       "checksum": {
-        "md5": "8D0FA5C0113B1964D66F9AA1A7ADD821"
+        "md5": "8d0fa5c0113b1964d66f9aa1a7add821"
       },
       "mimeType": "text/x-usfm",
       "size": 103344,
@@ -1194,7 +1194,7 @@
     },
     "ingredients/08RUTengWEB14.SFM": {
       "checksum": {
-        "md5": "4412D474D590D420975266E4EB679EC9"
+        "md5": "4412d474d590d420975266e4eb679ec9"
       },
       "mimeType": "text/x-usfm",
       "size": 14361,
@@ -1204,7 +1204,7 @@
     },
     "ingredients/091SAengWEB14.SFM": {
       "checksum": {
-        "md5": "45CDCF37117EE5248E7B03ECC2B5D68A"
+        "md5": "45cdcf37117ee5248e7b03ecc2b5d68a"
       },
       "mimeType": "text/x-usfm",
       "size": 135390,
@@ -1214,7 +1214,7 @@
     },
     "ingredients/102SAengWEB14.SFM": {
       "checksum": {
-        "md5": "6D13FDABC88C53807F7E4FBFFAC25D29"
+        "md5": "6d13fdabc88c53807f7e4fbffac25d29"
       },
       "mimeType": "text/x-usfm",
       "size": 111873,
@@ -1224,7 +1224,7 @@
     },
     "ingredients/111KIengWEB14.SFM": {
       "checksum": {
-        "md5": "2E8F92E255B608597DF0D9EB2CCCF58E"
+        "md5": "2e8f92e255b608597df0d9eb2cccf58e"
       },
       "mimeType": "text/x-usfm",
       "size": 132453,
@@ -1234,7 +1234,7 @@
     },
     "ingredients/122KIengWEB14.SFM": {
       "checksum": {
-        "md5": "94119D70E7FA8396C518BC4B89C8C55D"
+        "md5": "94119d70e7fa8396c518bc4b89c8c55d"
       },
       "mimeType": "text/x-usfm",
       "size": 126659,
@@ -1244,7 +1244,7 @@
     },
     "ingredients/131CHengWEB14.SFM": {
       "checksum": {
-        "md5": "70E9920D6C956DCAD1D024D65B058483"
+        "md5": "70e9920d6c956dcad1d024d65b058483"
       },
       "mimeType": "text/x-usfm",
       "size": 117099,
@@ -1254,7 +1254,7 @@
     },
     "ingredients/142CHengWEB14.SFM": {
       "checksum": {
-        "md5": "47A0185DCE177C05A5C17FB47031BA76"
+        "md5": "47a0185dce177c05a5c17fb47031ba76"
       },
       "mimeType": "text/x-usfm",
       "size": 145864,
@@ -1264,7 +1264,7 @@
     },
     "ingredients/15EZRengWEB14.SFM": {
       "checksum": {
-        "md5": "59DB3ED5629EDEBFA83186A2E7C03388"
+        "md5": "59db3ed5629edebfa83186a2e7c03388"
       },
       "mimeType": "text/x-usfm",
       "size": 43333,
@@ -1274,7 +1274,7 @@
     },
     "ingredients/16NEHengWEB14.SFM": {
       "checksum": {
-        "md5": "B8A9F340184949AAC5ECFA807C14C8E0"
+        "md5": "b8a9f340184949aac5ecfa807c14c8e0"
       },
       "mimeType": "text/x-usfm",
       "size": 60691,
@@ -1284,7 +1284,7 @@
     },
     "ingredients/17ESTengWEB14.SFM": {
       "checksum": {
-        "md5": "7FE9D353FAB032C4977CFE4A573E4CD3"
+        "md5": "7fe9d353fab032c4977cfe4a573e4cd3"
       },
       "mimeType": "text/x-usfm",
       "size": 31885,
@@ -1294,7 +1294,7 @@
     },
     "ingredients/18JOBengWEB14.SFM": {
       "checksum": {
-        "md5": "EB16CD850E71AE2BCC9085161F5A6EF4"
+        "md5": "eb16cd850e71ae2bcc9085161f5a6ef4"
       },
       "mimeType": "text/x-usfm",
       "size": 114095,
@@ -1304,7 +1304,7 @@
     },
     "ingredients/19PSAengWEB14.SFM": {
       "checksum": {
-        "md5": "8D5DAD6C063B4F3410AF450182667EB8"
+        "md5": "8d5dad6c063b4f3410af450182667eb8"
       },
       "mimeType": "text/x-usfm",
       "size": 277458,
@@ -1314,7 +1314,7 @@
     },
     "ingredients/20PROengWEB14.SFM": {
       "checksum": {
-        "md5": "EBA83B7B9BB48CD8826BD27409DC111C"
+        "md5": "eba83b7b9bb48cd8826bd27409dc111c"
       },
       "mimeType": "text/x-usfm",
       "size": 96304,
@@ -1324,7 +1324,7 @@
     },
     "ingredients/21ECCengWEB14.SFM": {
       "checksum": {
-        "md5": "D2C621D8AEA7673C555A1025FAABF5D9"
+        "md5": "d2c621d8aea7673c555a1025faabf5d9"
       },
       "mimeType": "text/x-usfm",
       "size": 30827,
@@ -1334,7 +1334,7 @@
     },
     "ingredients/22SNGengWEB14.SFM": {
       "checksum": {
-        "md5": "CAF3245166100F98486DC0F53B7BF2C7"
+        "md5": "caf3245166100f98486dc0f53b7bf2c7"
       },
       "mimeType": "text/x-usfm",
       "size": 17073,
@@ -1344,7 +1344,7 @@
     },
     "ingredients/23ISAengWEB14.SFM": {
       "checksum": {
-        "md5": "CFAE53FBC618C3756A757E5323C5163E"
+        "md5": "cfae53fbc618c3756a757e5323c5163e"
       },
       "mimeType": "text/x-usfm",
       "size": 216586,
@@ -1354,7 +1354,7 @@
     },
     "ingredients/24JERengWEB14.SFM": {
       "checksum": {
-        "md5": "70DA4CF319355B354AC0BEDD69FF6437"
+        "md5": "70da4cf319355b354ac0bedd69ff6437"
       },
       "mimeType": "text/x-usfm",
       "size": 242317,
@@ -1364,7 +1364,7 @@
     },
     "ingredients/25LAMengWEB14.SFM": {
       "checksum": {
-        "md5": "357491C8EF587137631B3D67BC6F33B6"
+        "md5": "357491c8ef587137631b3d67bc6f33b6"
       },
       "mimeType": "text/x-usfm",
       "size": 22182,
@@ -1374,7 +1374,7 @@
     },
     "ingredients/26EZKengWEB14.SFM": {
       "checksum": {
-        "md5": "46C92B9914B5C3A8935E47933FB23E45"
+        "md5": "46c92b9914b5c3a8935e47933fb23e45"
       },
       "mimeType": "text/x-usfm",
       "size": 217458,
@@ -1384,7 +1384,7 @@
     },
     "ingredients/27DANengWEB14.SFM": {
       "checksum": {
-        "md5": "C727E4C9045B482027EB62C65FA13874"
+        "md5": "c727e4c9045b482027eb62c65fa13874"
       },
       "mimeType": "text/x-usfm",
       "size": 65192,
@@ -1394,7 +1394,7 @@
     },
     "ingredients/28HOSengWEB14.SFM": {
       "checksum": {
-        "md5": "0779AE714F15F858D6CADCF2147074FF"
+        "md5": "0779ae714f15f858d6cadcf2147074ff"
       },
       "mimeType": "text/x-usfm",
       "size": 32765,
@@ -1404,7 +1404,7 @@
     },
     "ingredients/29JOLengWEB14.SFM": {
       "checksum": {
-        "md5": "34ED55D036DEEACF88F1D3DA46743652"
+        "md5": "34ed55d036deeacf88f1d3da46743652"
       },
       "mimeType": "text/x-usfm",
       "size": 12654,
@@ -1414,7 +1414,7 @@
     },
     "ingredients/30AMOengWEB14.SFM": {
       "checksum": {
-        "md5": "0F8E4E345261D6EC7911777B337ACC11"
+        "md5": "0f8e4e345261d6ec7911777b337acc11"
       },
       "mimeType": "text/x-usfm",
       "size": 25197,
@@ -1424,7 +1424,7 @@
     },
     "ingredients/31OBAengWEB14.SFM": {
       "checksum": {
-        "md5": "DA964510DC5981D1689F75B56824E35B"
+        "md5": "da964510dc5981d1689f75b56824e35b"
       },
       "mimeType": "text/x-usfm",
       "size": 3980,
@@ -1434,7 +1434,7 @@
     },
     "ingredients/32JONengWEB14.SFM": {
       "checksum": {
-        "md5": "8F782A7F6E10497D1FE52F353FC089C4"
+        "md5": "8f782a7f6e10497d1fe52f353fc089c4"
       },
       "mimeType": "text/x-usfm",
       "size": 7515,
@@ -1444,7 +1444,7 @@
     },
     "ingredients/33MICengWEB14.SFM": {
       "checksum": {
-        "md5": "DBBF65BE5C2EA86702FB6C347638A39A"
+        "md5": "dbbf65be5c2ea86702fb6c347638a39a"
       },
       "mimeType": "text/x-usfm",
       "size": 19343,
@@ -1454,7 +1454,7 @@
     },
     "ingredients/34NAMengWEB14.SFM": {
       "checksum": {
-        "md5": "5BDC541E378C43190F6EA9C4DFCCF428"
+        "md5": "5bdc541e378c43190f6ea9c4dfccf428"
       },
       "mimeType": "text/x-usfm",
       "size": 7487,
@@ -1464,7 +1464,7 @@
     },
     "ingredients/35HABengWEB14.SFM": {
       "checksum": {
-        "md5": "1DC4F6A26EC84560F39C54B759D10017"
+        "md5": "1dc4f6a26ec84560f39c54b759d10017"
       },
       "mimeType": "text/x-usfm",
       "size": 8921,
@@ -1474,7 +1474,7 @@
     },
     "ingredients/36ZEPengWEB14.SFM": {
       "checksum": {
-        "md5": "8535A470597E28218805F281D7A7A336"
+        "md5": "8535a470597e28218805f281d7a7a336"
       },
       "mimeType": "text/x-usfm",
       "size": 9326,
@@ -1484,7 +1484,7 @@
     },
     "ingredients/37HAGengWEB14.SFM": {
       "checksum": {
-        "md5": "0D92C70423771A191FDD9C26617757B0"
+        "md5": "0d92c70423771a191fdd9c26617757b0"
       },
       "mimeType": "text/x-usfm",
       "size": 6470,
@@ -1494,7 +1494,7 @@
     },
     "ingredients/38ZECengWEB14.SFM": {
       "checksum": {
-        "md5": "A16BB160C6D70BF46324AC7296197A39"
+        "md5": "a16bb160c6d70bf46324ac7296197a39"
       },
       "mimeType": "text/x-usfm",
       "size": 35834,
@@ -1504,7 +1504,7 @@
     },
     "ingredients/39MALengWEB14.SFM": {
       "checksum": {
-        "md5": "04D1DE24FBFA35676B8FF2582C456134"
+        "md5": "04d1de24fbfa35676b8ff2582c456134"
       },
       "mimeType": "text/x-usfm",
       "size": 10246,
@@ -1514,7 +1514,7 @@
     },
     "ingredients/41MATengWEB14.SFM": {
       "checksum": {
-        "md5": "8B17A8AA11763B7DE35C704234FA9995"
+        "md5": "8b17a8aa11763b7de35c704234fa9995"
       },
       "mimeType": "text/x-usfm",
       "size": 151070,
@@ -1524,7 +1524,7 @@
     },
     "ingredients/42MRKengWEB14.SFM": {
       "checksum": {
-        "md5": "B82B5E9DFE3B1AA0DB971044EE85979C"
+        "md5": "b82b5e9dfe3b1aa0db971044ee85979c"
       },
       "mimeType": "text/x-usfm",
       "size": 91347,
@@ -1534,7 +1534,7 @@
     },
     "ingredients/43LUKengWEB14.SFM": {
       "checksum": {
-        "md5": "2E263FFA126D9482C62248DA25BBD545"
+        "md5": "2e263ffa126d9482c62248da25bbd545"
       },
       "mimeType": "text/x-usfm",
       "size": 153306,
@@ -1544,7 +1544,7 @@
     },
     "ingredients/44JHNengWEB14.SFM": {
       "checksum": {
-        "md5": "2DDDC70509BC658D492BB33320BF7AAD"
+        "md5": "2dddc70509bc658d492bb33320bf7aad"
       },
       "mimeType": "text/x-usfm",
       "size": 117288,
@@ -1554,7 +1554,7 @@
     },
     "ingredients/45ACTengWEB14.SFM": {
       "checksum": {
-        "md5": "687B8B7749DD2088D79060908FD0978E"
+        "md5": "687b8b7749dd2088d79060908fd0978e"
       },
       "mimeType": "text/x-usfm",
       "size": 142274,
@@ -1564,7 +1564,7 @@
     },
     "ingredients/46ROMengWEB14.SFM": {
       "checksum": {
-        "md5": "8B110A4F1DA3E52B53C0B0D27A1411ED"
+        "md5": "8b110a4f1da3e52b53c0b0d27a1411ed"
       },
       "mimeType": "text/x-usfm",
       "size": 59241,
@@ -1574,7 +1574,7 @@
     },
     "ingredients/471COengWEB14.SFM": {
       "checksum": {
-        "md5": "3974C0ACF8808D5B4F3AE44CBCF5EC20"
+        "md5": "3974c0acf8808d5b4f3ae44cbcf5ec20"
       },
       "mimeType": "text/x-usfm",
       "size": 55195,
@@ -1584,7 +1584,7 @@
     },
     "ingredients/482COengWEB14.SFM": {
       "checksum": {
-        "md5": "00DABB4B59824A5BB392C098C4C516C3"
+        "md5": "00dabb4b59824a5bb392c098c4c516c3"
       },
       "mimeType": "text/x-usfm",
       "size": 35513,
@@ -1594,7 +1594,7 @@
     },
     "ingredients/49GALengWEB14.SFM": {
       "checksum": {
-        "md5": "97760824929C4556DEC9298B4EB0CD6A"
+        "md5": "97760824929c4556dec9298b4eb0cd6a"
       },
       "mimeType": "text/x-usfm",
       "size": 19022,
@@ -1604,7 +1604,7 @@
     },
     "ingredients/50EPHengWEB14.SFM": {
       "checksum": {
-        "md5": "46996E197EFCFD05F6135695AA2D1AB8"
+        "md5": "46996e197efcfd05f6135695aa2d1ab8"
       },
       "mimeType": "text/x-usfm",
       "size": 18459,
@@ -1614,7 +1614,7 @@
     },
     "ingredients/51PHPengWEB14.SFM": {
       "checksum": {
-        "md5": "6917F744C032DC03B8FD1E168D5BE8FE"
+        "md5": "6917f744c032dc03b8fd1e168d5be8fe"
       },
       "mimeType": "text/x-usfm",
       "size": 13223,
@@ -1624,7 +1624,7 @@
     },
     "ingredients/52COLengWEB14.SFM": {
       "checksum": {
-        "md5": "749CF9BB91F81D5370356CE371BE761C"
+        "md5": "749cf9bb91f81d5370356ce371be761c"
       },
       "mimeType": "text/x-usfm",
       "size": 12133,
@@ -1634,7 +1634,7 @@
     },
     "ingredients/531THengWEB14.SFM": {
       "checksum": {
-        "md5": "7BF22A32D325D05EEEE1CE161A6A82BD"
+        "md5": "7bf22a32d325d05eeee1ce161a6a82bd"
       },
       "mimeType": "text/x-usfm",
       "size": 11011,
@@ -1644,7 +1644,7 @@
     },
     "ingredients/542THengWEB14.SFM": {
       "checksum": {
-        "md5": "88A115F5D20FD6BEF9C3107398850200"
+        "md5": "88a115f5d20fd6bef9c3107398850200"
       },
       "mimeType": "text/x-usfm",
       "size": 6361,
@@ -1654,7 +1654,7 @@
     },
     "ingredients/551TIengWEB14.SFM": {
       "checksum": {
-        "md5": "2B8723064F2790C4D4046BE500D07018"
+        "md5": "2b8723064f2790c4d4046be500d07018"
       },
       "mimeType": "text/x-usfm",
       "size": 14830,
@@ -1664,7 +1664,7 @@
     },
     "ingredients/562TIengWEB14.SFM": {
       "checksum": {
-        "md5": "751903802829879FEF12DE223763FD44"
+        "md5": "751903802829879fef12de223763fd44"
       },
       "mimeType": "text/x-usfm",
       "size": 10135,
@@ -1674,7 +1674,7 @@
     },
     "ingredients/57TITengWEB14.SFM": {
       "checksum": {
-        "md5": "C7B4A22B9414BABDB78EB7A558CEEE9C"
+        "md5": "c7b4a22b9414babdb78eb7a558ceee9c"
       },
       "mimeType": "text/x-usfm",
       "size": 5799,
@@ -1684,7 +1684,7 @@
     },
     "ingredients/58PHMengWEB14.SFM": {
       "checksum": {
-        "md5": "C54A23F060E72143F4C42210F820FFC2"
+        "md5": "c54a23f060e72143f4c42210f820ffc2"
       },
       "mimeType": "text/x-usfm",
       "size": 2786,
@@ -1694,7 +1694,7 @@
     },
     "ingredients/59HEBengWEB14.SFM": {
       "checksum": {
-        "md5": "42B8B1DF3C7D46BD29DA20311FE20997"
+        "md5": "42b8b1df3c7d46bd29da20311fe20997"
       },
       "mimeType": "text/x-usfm",
       "size": 43781,
@@ -1704,7 +1704,7 @@
     },
     "ingredients/60JASengWEB14.SFM": {
       "checksum": {
-        "md5": "EE713DE895243E837F0B42F89F5471D6"
+        "md5": "ee713de895243e837f0b42f89f5471d6"
       },
       "mimeType": "text/x-usfm",
       "size": 13931,
@@ -1714,7 +1714,7 @@
     },
     "ingredients/611PEengWEB14.SFM": {
       "checksum": {
-        "md5": "1B0010082A926036796FBAE8D5325C35"
+        "md5": "1b0010082a926036796fbae8d5325c35"
       },
       "mimeType": "text/x-usfm",
       "size": 15395,
@@ -1724,7 +1724,7 @@
     },
     "ingredients/622PEengWEB14.SFM": {
       "checksum": {
-        "md5": "8937F5EC1ABE7E29D43ED5FA2187322E"
+        "md5": "8937f5ec1abe7e29d43ed5fa2187322e"
       },
       "mimeType": "text/x-usfm",
       "size": 9625,
@@ -1734,7 +1734,7 @@
     },
     "ingredients/631JNengWEB14.SFM": {
       "checksum": {
-        "md5": "E5440B9367CF043E99FE65739F37362F"
+        "md5": "e5440b9367cf043e99fe65739f37362f"
       },
       "mimeType": "text/x-usfm",
       "size": 14749,
@@ -1744,7 +1744,7 @@
     },
     "ingredients/642JNengWEB14.SFM": {
       "checksum": {
-        "md5": "F6563665526E6BCAC1F61102C750C338"
+        "md5": "f6563665526e6bcac1f61102c750c338"
       },
       "mimeType": "text/x-usfm",
       "size": 1889,
@@ -1754,7 +1754,7 @@
     },
     "ingredients/653JNengWEB14.SFM": {
       "checksum": {
-        "md5": "28F35F9CA67FBBC2EE842795F43C30F3"
+        "md5": "28f35f9ca67fbbc2ee842795f43c30f3"
       },
       "mimeType": "text/x-usfm",
       "size": 1828,
@@ -1764,7 +1764,7 @@
     },
     "ingredients/66JUDengWEB14.SFM": {
       "checksum": {
-        "md5": "0CA11C87F0C438A68B2832D02284BDA9"
+        "md5": "0ca11c87f0c438a68b2832d02284bda9"
       },
       "mimeType": "text/x-usfm",
       "size": 4140,
@@ -1774,7 +1774,7 @@
     },
     "ingredients/67REVengWEB14.SFM": {
       "checksum": {
-        "md5": "D8D873A2206E3AD34C094B79312834A4"
+        "md5": "d8d873a2206e3ad34c094b79312834a4"
       },
       "mimeType": "text/x-usfm",
       "size": 68541,
@@ -1784,7 +1784,7 @@
     },
     "ingredients/68TOBengWEB14.SFM": {
       "checksum": {
-        "md5": "4DD160974A390C7CBBBA4B99B7190EEF"
+        "md5": "4dd160974a390c7cbbba4b99b7190eef"
       },
       "mimeType": "text/x-usfm",
       "size": 39051,
@@ -1794,7 +1794,7 @@
     },
     "ingredients/69JDTengWEB14.SFM": {
       "checksum": {
-        "md5": "672FBF9E36A4A0C1B181FD8D96E4ACCF"
+        "md5": "672fbf9e36a4a0c1b181fd8d96e4accf"
       },
       "mimeType": "text/x-usfm",
       "size": 62610,
@@ -1804,7 +1804,7 @@
     },
     "ingredients/70ESGengWEB14.SFM": {
       "checksum": {
-        "md5": "838460E4099EF301F0B89F4F9B505F01"
+        "md5": "838460e4099ef301f0b89f4f9b505f01"
       },
       "mimeType": "text/x-usfm",
       "size": 44195,
@@ -1814,7 +1814,7 @@
     },
     "ingredients/71WISengWEB14.SFM": {
       "checksum": {
-        "md5": "A2DD9CB18068D3538603D39331DBECA3"
+        "md5": "a2dd9cb18068d3538603d39331dbeca3"
       },
       "mimeType": "text/x-usfm",
       "size": 69807,
@@ -1824,7 +1824,7 @@
     },
     "ingredients/72SIRengWEB14.SFM": {
       "checksum": {
-        "md5": "E1B8BE3195EFD0BA8987C7EF0D4EB7F7"
+        "md5": "e1b8be3195efd0ba8987c7ef0d4eb7f7"
       },
       "mimeType": "text/x-usfm",
       "size": 177244,
@@ -1834,7 +1834,7 @@
     },
     "ingredients/73BARengWEB14.SFM": {
       "checksum": {
-        "md5": "B053E036DE0D161A9B44D763D346A40E"
+        "md5": "b053e036de0d161a9b44d763d346a40e"
       },
       "mimeType": "text/x-usfm",
       "size": 28611,
@@ -1844,7 +1844,7 @@
     },
     "ingredients/781MAengWEB14.SFM": {
       "checksum": {
-        "md5": "4D729214F7519FA91F5F968BA0F35323"
+        "md5": "4d729214f7519fa91f5f968ba0f35323"
       },
       "mimeType": "text/x-usfm",
       "size": 135266,
@@ -1854,7 +1854,7 @@
     },
     "ingredients/792MAengWEB14.SFM": {
       "checksum": {
-        "md5": "C29A5CF2783BE6EE307BF4A24E9649F6"
+        "md5": "c29a5cf2783be6ee307bf4a24e9649f6"
       },
       "mimeType": "text/x-usfm",
       "size": 108653,
@@ -1864,7 +1864,7 @@
     },
     "ingredients/803MAengWEB14.SFM": {
       "checksum": {
-        "md5": "38346EB18A392962313A5CF16388A19F"
+        "md5": "38346eb18a392962313a5cf16388a19f"
       },
       "mimeType": "text/x-usfm",
       "size": 40531,
@@ -1874,7 +1874,7 @@
     },
     "ingredients/814MAengWEB14.SFM": {
       "checksum": {
-        "md5": "B2585E9B06FBC1C43482CA58ADC26648"
+        "md5": "b2585e9b06fbc1c43482ca58adc26648"
       },
       "mimeType": "text/x-usfm",
       "size": 62411,
@@ -1884,7 +1884,7 @@
     },
     "ingredients/821ESengWEB14.SFM": {
       "checksum": {
-        "md5": "3C53C94D7DF27F00FC90492054F6EB10"
+        "md5": "3c53c94d7df27f00fc90492054f6eb10"
       },
       "mimeType": "text/x-usfm",
       "size": 72768,
@@ -1894,7 +1894,7 @@
     },
     "ingredients/832ESengWEB14.SFM": {
       "checksum": {
-        "md5": "DAD402DA863869814FBBADE8C6569329"
+        "md5": "dad402da863869814fbbade8c6569329"
       },
       "mimeType": "text/x-usfm",
       "size": 130439,
@@ -1904,7 +1904,7 @@
     },
     "ingredients/84MANengWEB14.SFM": {
       "checksum": {
-        "md5": "31510363EC16EFA9ADE806B811D9DEBC"
+        "md5": "31510363ec16efa9ade806b811d9debc"
       },
       "mimeType": "text/x-usfm",
       "size": 3125,
@@ -1914,7 +1914,7 @@
     },
     "ingredients/85PS2engWEB14.SFM": {
       "checksum": {
-        "md5": "0FDE497D480155B6FE15931BEEDAA48F"
+        "md5": "0fde497d480155b6fe15931beedaa48f"
       },
       "mimeType": "text/x-usfm",
       "size": 1082,
@@ -1922,29 +1922,9 @@
         "PS2": []
       }
     },
-    "ingredients/A0FRTengWEB14.SFM": {
-      "checksum": {
-        "md5": "6508227C1955C4AF6CD2D8CED65E86AC"
-      },
-      "mimeType": "text/x-usfm",
-      "size": 9322,
-      "scope": {
-        "FRT": []
-      }
-    },
-    "ingredients/A9GLOengWEB14.SFM": {
-      "checksum": {
-        "md5": "DA3706AEDB5B1CAE4644135D2E6B2CA5"
-      },
-      "mimeType": "text/x-usfm",
-      "size": 19990,
-      "scope": {
-        "GLO": []
-      }
-    },
     "ingredients/B2DAGengWEB14.SFM": {
       "checksum": {
-        "md5": "ADDF9275EE8F5F12A235518AED8A0A35"
+        "md5": "addf9275ee8f5f12a235518aed8a0a35"
       },
       "mimeType": "text/x-usfm",
       "size": 88166,
