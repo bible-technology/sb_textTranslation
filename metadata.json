@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.2.0",
+    "version": "0.2.0-beta",
     "variant": "source",
     "generator": {
       "softwareName": "Paratext",
@@ -13,7 +13,7 @@
       "userName": "Tim Steenwyk"
     },
     "defaultLanguage": "en",
-    "dateCreated": "2020-06-22T16:03:26.9224027-04:00",
+    "dateCreated": "2020-06-22T16:07:29.435082-04:00",
     "normalization": "NFC"
   },
   "idServers": {
