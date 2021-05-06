@@ -1,13 +1,8 @@
 {
   "meta": {
-    "version": "0.2.0-beta",
-    "variant": "source",
+    "version": "0.3.0",
+    "category": "source",
     "generator": {
-      "softwareName": "Paratext",
-      "softwareVersion": "9.1.0.0",
-      "userName": "Tim Steenwyk"
-    },
-    "uploader": {
       "softwareName": "Paratext",
       "softwareVersion": "9.1.0.0",
       "userName": "Tim Steenwyk"
@@ -16,7 +11,7 @@
     "dateCreated": "2020-06-22T16:07:29.435082-04:00",
     "normalization": "NFC"
   },
-  "idServers": {
+  "idAuthorities": {
     "ptx": {
       "id": "http://www.paratext.org",
       "name": {
@@ -25,13 +20,14 @@
     }
   },
   "identification": {
-    "systemId": {
+    "primary": {
       "ptx": {
-        "id": "b01d38db1c30059b892c8cbbc65b70271743d32d",
-        "revision": "c772aae2277babbe71dce9e3e061656b6909f5e2"
+        "b01d38db1c30059b892c8cbbc65b70271743d32d": {
+          "revision": "c772aae2277babbe71dce9e3e061656b6909f5e2",
+          "timestamp": "2020-06-22T16:07:29.435082-04:00"
+        }
       }
     },
-    "idServer": "ptx",
     "name": {
       "en": "World English Bible (American Edition)"
     },
@@ -39,10 +35,7 @@
       "en": "engWEB14"
     }
   },
-  "confidentiality": {
-    "metadata": "unrestricted",
-    "ingredients": "unrestricted"
-  },
+  "confidential": false,
   "languages": [
     {
       "tag": "en",
