@@ -54,22 +54,6 @@
         "audience": "common",
         "usfmVersion": "2.6"
       },
-      "canonType": [
-        "ot",
-        "nt",
-        "dc"
-      ],
-      "canonSpec": {
-        "ot": {
-          "name": "western"
-        },
-        "nt": {
-          "name": "western"
-        },
-        "dc": {
-          "name": "westernInterconfessional"
-        }
-      },
       "currentScope": {
         "GEN": [],
         "EXO": [],
