@@ -1,6 +1,7 @@
 {
+  "format": "scripture burrito",
   "meta": {
-    "version": "1.0.0-rc1",
+    "version": "1.0.0-rc2",
     "category": "source",
     "generator": {
       "softwareName": "Paratext",
@@ -8,7 +9,7 @@
       "userName": "Tim Steenwyk"
     },
     "defaultLocale": "en",
-    "dateCreated": "2020-06-22T16:07:29.435082-04:00",
+    "dateCreated": "2023-02-21T00:00:00.00-04:00",
     "normalization": "NFC"
   },
   "idAuthorities": {
